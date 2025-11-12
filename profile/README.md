@@ -48,20 +48,14 @@
 
 *(Примерная структура, может расширяться)*
 
-* **dp-helper** — Twitch чат-бот + EventSub
-* **dp-server-api** — основной API для серверов
-* **dp-server-api-backup** — резервный API
-* **dp-sl-plugins** — плагины для SCP:SL
-* **dp-mc-tools** — утилиты для Minecraft
-* **dp-web** — веб-интерфейсы и панели
-* **dp-nextcloud-portal** — кастомный сайт для Nextcloud
+* **dp-server-api-exiled** — основной плагин Exiled для серверов SCP: Secret Laboratory для подключения к DP-SERVER-API
 
 ## 📡 Инфраструктура
 
 Организация тесно связана с:
 
-* **DenchikP** (виртуальный ISP)
-* Собственной серверной стойкой **DenchikP Rack**
+* **ShadowLabs** (ISP (в разработке))
+* Собственной серверной стойкой **ShadowLabs Rack**
 * FRP туннелями, Cloudflare, VPS, Windows/Linux серверами
 * NGINX/Apache, Docker, PM2, Uptime-Kuma
 
@@ -69,7 +63,6 @@
 
 * Twitch: [https://www.twitch.tv/denchikp](https://www.twitch.tv/denchikp)_
 * Сайт: [https://denchikp.com](https://denchikp.com)
-* Панель проектов: [https://secretary.denchikp.com](https://secretary.denchikp.com) (пример)
 
 ---
 
