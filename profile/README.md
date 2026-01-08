@@ -54,7 +54,7 @@
 
 Организация тесно связана с:
 
-* **ShadowLabs** (ISP (в разработке))
+* **DenchikP Networks** (ISP (в разработке))
 * Собственной серверной стойкой **ShadowLabs Rack**
 * FRP туннелями, Cloudflare, VPS, Windows/Linux серверами
 * NGINX/Apache, Docker, PM2, Uptime-Kuma
