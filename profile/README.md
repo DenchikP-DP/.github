@@ -1,70 +1,128 @@
-# DenchikP-DP
+<p align="center">
+  <img src="https://cdn.denchikp.com/denchikp.com/img/org-banner.svg" alt="DenchikP-DP" width="860" />
+</p>
 
-Добро пожаловать в **DenchikP-DP** — организацию, объединяющую проекты, инфраструктуру и разработки экосистемы **DenchikP**.
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=20&duration=3000&pause=800&color=FE005B&background=0A0A0F&center=true&vCenter=true&width=760&height=50&lines=%24+git+clone+DenchikP-DP%2Fecosystem;%24+systemctl+start+denchikp.target;%24+docker+compose+up+-d+ecosystem;%5B+OK+%5D+%D1%80%D0%B0%D0%B7%D0%B2%D0%B8%D0%B2%D0%B0%D0%B5%D0%BC%D1%81%D1%8F%2C+%D0%BC%D0%B0%D1%81%D1%88%D1%82%D0%B0%D0%B1%D0%B8%D1%80%D1%83%D0%B5%D0%BC%D1%81%D1%8F%2C+%D0%B0%D0%B2%D1%82%D0%BE%D0%BC%D0%B0%D1%82%D0%B8%D0%B7%D0%B8%D1%80%D1%83%D0%B5%D0%BC" alt="Typing SVG" />
+</p>
 
-## 🌐 О проекте
+<p align="center">
+  <img src="https://img.shields.io/badge/status-online-FE005B?style=for-the-badge&labelColor=0A0A0F" />
+  <img src="https://img.shields.io/badge/ecosystem-DenchikP-FE005B?style=for-the-badge&labelColor=0A0A0F" />
+  <img src="https://img.shields.io/badge/ISP-in%20development-FE005B?style=for-the-badge&labelColor=0A0A0F" />
+</p>
 
-**DenchikP-DP** — это центр разработки и управления множеством сервисов, связанных с:
+<p align="center">
+  <img src="https://cdn.denchikp.com/denchikp.com/img/org-terminal.svg" alt="terminal" width="860" />
+</p>
 
-* Игровыми серверами (SCP:SL, Minecraft, Satisfactory и др.)
-* Twitch-инфраструктурой и ботами (DP-Helper)
-* API-сервисами (DP-SERVER-API, резервные API, системы синхронизации)
-* Веб-проектами (панели управления, магазины, дашборды, Nextcloud, мониторинг и др.)
-* Собственной экосистемой **DenchikP**
+<br/>
 
-Организация служит репозиторием для модулей, библиотек, утилит и основных проектов.
+<p align="center"><img src="https://cdn.denchikp.com/denchikp.com/img/org-h-about.svg" alt="about" width="860" /></p>
 
-## 🏗 Основные направления
+```text
+╔════════════════════════════════════════════════════════════════════════════╗
+║  DenchikP-DP                                                               ║
+║  ────────────────────────────────────────────────────────────────────────  ║
+║  Центр разработки и управления сервисами экосистемы DenchikP:              ║
+║                                                                            ║
+║   [+] игровые серверы   SCP:SL · Minecraft · Satisfactory и др.            ║
+║   [+] Twitch и боты     DP-Helper                                          ║
+║   [+] API-сервисы       DP-CDN-API · резервные API · синхронизация         ║
+║   [+] веб-проекты       панели · магазины · дашборды · Nextcloud           ║
+║                                                                            ║
+║  Организация — репозиторий модулей, библиотек, утилит и основных проектов  ║
+╚════════════════════════════════════════════════════════════════════════════╝
+```
 
-### ⚙️ API и Backend
+<br/>
 
-* FastAPI сервисы
-* Системы мониторинга
-* Авторизация (JWT, OAuth — в том числе Steam, Twitch, Discord)
-* Резервные API, вебхуки, синхронизация данных
+<p align="center"><img src="https://cdn.denchikp.com/denchikp.com/img/org-h-directions.svg" alt="directions" width="860" /></p>
 
-### 🎮 Игровые проекты
+```console
+$ tree ./directions
+```
 
-* Плагины EXILED для SCP:SL
-* Плагины и API для Minecraft (Java Edition)
-* Поддержка RCON и без-RCON механизмов
-* Панели управления серверами
+```text
+./directions
+├── api-backend/
+│   ├── FastAPI сервисы
+│   ├── системы мониторинга
+│   ├── авторизация: JWT · OAuth (Steam · Twitch · Discord)
+│   └── резервные API · вебхуки · синхронизация данных
+├── game-projects/
+│   ├── плагины EXILED для SCP:SL
+│   ├── плагины и API для Minecraft (Java Edition)
+│   ├── RCON и без-RCON механизмы
+│   └── панели управления серверами
+├── twitch-discord/
+│   ├── Twitch EventSub Conduit архитектура
+│   ├── многопоточный DP-Helper бот
+│   ├── Telegram-панель управления ботом
+│   └── Discord-боты для серверов DenchikP
+└── web-projects/
+    ├── Nextcloud: кастомные темы и порталы
+    ├── панели · мониторинги · магазины донатов
+    ├── SPA/SSR сайты с авторизацией
+    └── UI на Tailwind и API-интеграциях
+```
 
-### 🤖 Twitch и Discord
+<div align="center">
 
-* Twitch EventSub Conduit архитектура
-* Многопоточный DP-Helper бот
-* Telegram панель для управления ботом
-* Discord боты для серверов DenchikP
+<img src="https://skillicons.dev/icons?i=python,fastapi,cs,java,nodejs,discord,docker,nginx,cloudflare,linux,windows,tailwind,php&perline=13" />
 
-### 💻 Веб-проекты
+</div>
 
-* Nextcloud (кастомные темы и порталы)
-* Панели, мониторинги, магазины донатов
-* SPA/SSR сайты с авторизацией
-* Красивые UI с Tailwind, API-интеграциями и т.д.
+<br/>
 
-## 🧩 Репозитории
+<p align="center"><img src="https://cdn.denchikp.com/denchikp.com/img/org-h-ecosystem.svg" alt="ecosystem" width="860" /></p>
 
-*(Примерная структура, может расширяться)*
+<p align="center">
+  <img src="https://cdn.denchikp.com/denchikp.com/img/org-skills.svg" alt="ecosystem" width="860" />
+</p>
 
-* **dp-game-api-exiled** — основной плагин Exiled для серверов SCP: Secret Laboratory для подключения к DP-GAME-API
-* **playerhud** — Продвинутый динамический HUD для SCP:SL. Показывает игроку здоровье, роль, мутаторы, админ-эффекты, статус раунда, боеголовки, SCP-079, TPS сервера и многое другое — обновляется в реальном времени.
+<br/>
 
-## 📡 Инфраструктура
+<p align="center"><img src="https://cdn.denchikp.com/denchikp.com/img/org-h-infra-v2.svg" alt="infrastructure" width="860" /></p>
 
-Организация тесно связана с:
+```text
+COMPONENT            ROLE                                     STATE
+DenchikP Networks    ISP                                      in development
+tunnels / edge       FRP туннели · Cloudflare                 online
+compute              VPS · Windows / Linux серверы            online
+web                  NGINX · Apache                           online
+runtime              Docker · PM2                             online
+monitoring           Uptime-Kuma                              online
+```
 
-* **DenchikP Networks** (ISP (в разработке))
-* Собственной серверной стойкой **ShadowLabs Rack**
-* FRP туннелями, Cloudflare, VPS, Windows/Linux серверами
-* NGINX/Apache, Docker, PM2, Uptime-Kuma
+<br/>
 
-## 📞 Контакты
+<p align="center"><img src="https://cdn.denchikp.com/denchikp.com/img/org-h-contact-v2.svg" alt="contact" width="860" /></p>
 
-* Twitch: [https://www.twitch.tv/denchikp](https://www.twitch.tv/denchikp)_
-* Сайт: [https://denchikp.com](https://denchikp.com)
+```text
+twitch ... https://www.twitch.tv/denchikp_
+web ...... https://denchikp.com
+```
 
----
+<div align="center">
 
-**DenchikP-DP** — единая экосистема. Развиваемся, масштабируемся, автоматизируем всё.
+[![Twitch](https://img.shields.io/badge/twitch-denchikp__-0A0A0F?style=for-the-badge&logo=twitch&logoColor=FE005B&labelColor=0A0A0F&color=FE005B)](https://www.twitch.tv/denchikp_)
+[![Website](https://img.shields.io/badge/web-denchikp.com-0A0A0F?style=for-the-badge&logo=googlechrome&logoColor=FE005B&labelColor=0A0A0F&color=FE005B)](https://denchikp.com)
+
+</div>
+
+```text
+ ______________________________________________________________
+< DenchikP-DP: единая экосистема. Развиваемся, масштабируемся,  >
+< автоматизируем всё.                                           >
+ --------------------------------------------------------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+```
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0A0A0F,100:FE005B&height=100&section=footer" />
+</p>
