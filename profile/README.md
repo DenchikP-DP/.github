@@ -100,8 +100,8 @@ monitoring           Uptime-Kuma                              online
 <p align="center"><img src="https://cdn.denchikp.com/denchikp.com/img/org-h-contact-v2.svg" alt="contact" width="860" /></p>
 
 ```text
-twitch ... https://www.twitch.tv/denchikp_
-web ...... https://denchikp.com
+twitch ... https://www.twitch.tv/denchikp
+web ...... https://denchikp.dev
 ```
 
 <div align="center">
