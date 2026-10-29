@@ -106,8 +106,8 @@ web ...... https://denchikp.dev
 
 <div align="center">
 
-[![Twitch](https://img.shields.io/badge/twitch-denchikp__-0A0A0F?style=for-the-badge&logo=twitch&logoColor=FE005B&labelColor=0A0A0F&color=FE005B)](https://www.twitch.tv/denchikp_)
-[![Website](https://img.shields.io/badge/web-denchikp.com-0A0A0F?style=for-the-badge&logo=googlechrome&logoColor=FE005B&labelColor=0A0A0F&color=FE005B)](https://denchikp.com)
+[![Twitch](https://img.shields.io/badge/twitch-denchikp-0A0A0F?style=for-the-badge&logo=twitch&logoColor=FE005B&labelColor=0A0A0F&color=FE005B)](https://www.twitch.tv/denchikp)
+[![Website](https://img.shields.io/badge/web-denchikp.com-0A0A0F?style=for-the-badge&logo=googlechrome&logoColor=FE005B&labelColor=0A0A0F&color=FE005B)](https://denchikp.dev)
 
 </div>
 
